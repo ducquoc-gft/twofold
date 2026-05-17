@@ -16,8 +16,8 @@ Switches Claude's response style to terse, caveman-like communication. Articles 
 
 Copy the whole "twofold" folder which contains "SKILL.md" to your LLM CLI config `skills` folder.
 
-- Claude Code (project): .claude/skills
-- Claude Code (user): ~/.claude/skills
+- Claude Code (project): `.claude/skills` , e.g. ```cp -r skills/twofold .claude/skills/```
+- Claude Code (user): `~/.claude/skills` , e.g. ```cp -r skills/twofold ~/.claude/skills/```
 
 Then /reload-plugins , or restart the session.
 
