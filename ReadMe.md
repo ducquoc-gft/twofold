@@ -8,7 +8,7 @@ Inspired by [linecount-maven-plugin](https://github.com/ducquoc-gft/linecount-ma
 
 ## What It Does
 
-Switches Claude's response style to terse, caveman-like communication. Articles gone. Filler gone. Hedging gone. Technical substance stays intact. Code blocks and error messages always quoted exactly.
+Switches LLM's response style to brief, concise communication. Articles gone. Filler gone. Hedging gone. Technical substance stays intact. Code blocks and error messages always quoted exactly.
 
 --- 
 
@@ -55,7 +55,7 @@ Switch anytime with `/twofold <level>`. Default is **long**.
 | Level | Style |
 |-------|-------|
 | `short` | No filler or hedging. Articles and full sentences kept. Professional but tight. |
-| `long` | Drop articles. Fragments OK. Short synonyms. Classic caveman. |
+| `long` | Drop articles. Fragments OK. Short synonyms. Classic brief. |
 | `v-short` | Semi-classical Vietnamese. Drop filler, keep grammar structure. |
 | `v-long` | Maximum classical Vietnamese compression. Extreme terseness. |
 
