@@ -1,6 +1,6 @@
 ## CL - twofold
 
-Compaction Lines - twofold (2F, sl).
+Compaction Lines - [twofold](https://github.com/ducquoc-gft/twofold) (2F, sl).
 
 Inspired by [linecount-maven-plugin](https://github.com/ducquoc-gft/linecount-maven-plugin), [understand-anything](https://github.com/Lum1104/Understand-Anything).
 
