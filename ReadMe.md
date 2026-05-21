@@ -29,18 +29,15 @@ Alternatively:
 
 ## Trigger Phrases
 
+- `/twofold`
 - `twofold mode`
 - `use twofold`
-- `talk like twofold`
+- `/2f`
 - `2f mode`
 - `use 2f`
-- `talk like 2f`
+- `/sl`
 - `sl mode`
 - `use sl`
-- `talk like sl`
-- `/twofold`
-- `/2f`
-- `/sl`
 - `be brief`
 - `trả lời ngắn`
 - `shorthand longform`
@@ -92,3 +89,7 @@ Normal twofold resumes immediately after the critical part.
 - Code, commits, and PRs: always written normally regardless of level.
 - Level persists across the session until changed.
 - `stop twofold` or `stop 2f` or `stop sl` or `normal mode` exits twofold entirely.
+
+## CC usage example
+
+![example](https:/raw.githubusercontent.com/dqonline/pic/main/u/TECH/twofold_2f_sl_example.jpg)
