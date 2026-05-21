@@ -2,10 +2,9 @@
 name: twofold
 description: >
   Compacted communication mode. Cuts token usage 60%~75% by speaking like Feynman
-  while keeping full technical accuracy. Supports intensity levels: short, long, v-short,
-  v-long.
-  Use when user says "twofold mode", "talk like twofold", "use twofold", "2f mode",
-  "talk like 2f", "use 2f", "sl mode", "use sl", "talk like sl", "be brief", "trả lời ngắn",
+  while keeping full technical accuracy. Levels: short, long, v-short, v-long.
+  Use when user says "twofold mode", "use twofold", "2f mode", "use 2f", "sl mode", "use sl", 
+  "be brief", "trả lời ngắn", "talk like twofold", "talk like 2f", "talk like sl", 
   "shorthand longform", "simple lengthy" or invokes /twofold or /2f or /sl . Also 
   auto-triggers when token efficiency is requested.
 ---
