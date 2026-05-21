@@ -10,6 +10,8 @@ Inspired by [linecount-maven-plugin](https://github.com/ducquoc-gft/linecount-ma
 
 Switches LLM's response style to brief, concise communication. Articles gone. Filler gone. Hedging gone. Technical substance stays intact. Code blocks and error messages always quoted exactly.
 
+Usefulness: cuts collectively tokens out 50%-90%, kind of x2 your session time until reaching compaction/limitation, not to mention concentration time.
+
 --- 
 
 ## Skill Installation
@@ -61,11 +63,20 @@ Switch anytime with `/twofold <level>`. Default is **long**.
 
 **Prompt:** "What is frugal?"
 
-| Level | Response |
-|-------|----------|
-| short | "Frugal means using the minimum resources needed to achieve a goal, with no waste." |
-| long  | "Min resources, max output. No waste." |
-| cc    | "Min res → max output. No waste." |
+Normal response:
+```
+Frugal means being careful and economical with resources — spending or using as little as possible without waste.
+
+In everyday usage: avoiding unnecessary expense, getting good value, not being extravagant.
+
+Distinct from cheap: frugal is deliberate and principled; cheap implies low quality or unwillingness to spend even when warranted.
+```
+
+| Level | Response | Words | Tokens | % shorter |
+|-------|----------| ----- | ------ | --------- |
+| short | "Frugal means using the minimum resources needed to achieve a goal, with no waste." | 15 | 17 | 79% |
+| long  | "Min resources, max output. No waste." | 6 | 9 | 89% |
+| cc    | "Min res → max output. No waste." | 6 | 8 | 90% |
 
 ---
 
