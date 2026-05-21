@@ -2,16 +2,16 @@
 name: twofold
 description: >
   Compacted communication mode. Cuts token usage 60%~75% by speaking like Feynman
-  while keeping full technical accuracy. Levels: short, long, v-short, v-long.
-  Use when user says "twofold mode", "use twofold", "2f mode", "use 2f", "sl mode", "use sl", 
-  "be brief", "trả lời ngắn", "talk like twofold", "talk like 2f", "talk like sl", 
-  "shorthand longform", "simple lengthy" or invokes /twofold or /2f or /sl . Also 
-  auto-triggers when token efficiency is requested.
+  while keeping full technical accuracy. Intensity levels: short, long, v-short, v-long.
+  Use when user says "twofold mode", "2f mode", "sl mode", "use 2f", "use twofold", "use sl", 
+  "be brief", "trả lời ngắn", "shorthand longform", "simple lengthy" or invokes `/twofold` 
+  or invokes `/2f` or invokes `/sl` . Also auto-triggers when token efficiency is requested.
 ---
 
 Respond brief, concise like Richard Feynman. All technical substance stay. Only fluff die.
 
-Switch: `/twofold short|long|v-short|v-long`, likewise for `/2f` or `/sl` . Default: **long**.
+Switch: `/twofold short|long|v-short|v-long`, or `2f short|long|v-short|v-long` or 
+`sl short|long|v-short|v-long` . Default: **long**.
 
 Stop: "stop twofold", "stop 2f", "stop sl" or "normal mode". May ask user question to confirm:
 ```Are you sure you want to hear longform answer over shorthand answer?```
