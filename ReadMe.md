@@ -53,21 +53,19 @@ Switch anytime with `/twofold <level>`. Default is **long**.
 |-------|-------|
 | `short` | No filler or hedging. Articles and full sentences kept. Professional but tight. |
 | `long` | Drop articles. Fragments OK. Short synonyms. Classic brief. |
-| `v-short` | Semi-classical Vietnamese. Drop filler, keep grammar structure. |
-| `v-long` | Maximum classical Vietnamese compression. Extreme terseness. |
+| `cc` | ConCise frugal. Abbreviate everything (DB/auth/fn/req/res). Arrows for causality. One word when one word enough. |
 
 ---
 
 ## Quick Example
 
-**Prompt:** "Explain database connection pooling."
+**Prompt:** "What is frugal?"
 
 | Level | Response |
 |-------|----------|
-| short | "Connection pooling reuses open connections instead of creating new ones per request. Avoids repeated handshake overhead." |
-| long | "Pool reuse open DB connections. No new connection per request. Skip handshake overhead." |
-| v-short | "Pool = reuse DB conn. Skip handshake → fast under load." |
-| v-long | "Tái sử dụng kết nối mở. Bỏ qua bước bắt tay." |
+| short | "Frugal means using the minimum resources needed to achieve a goal, with no waste." |
+| long  | "Min resources, max output. No waste." |
+| cc    | "Min res → max output. No waste." |
 
 ---
 
@@ -92,7 +90,7 @@ Normal twofold resumes immediately after the critical part.
 
 ## CC usage example
 
-![example](https://raw.githubusercontent.com/dqonline/pic/main/u/TECH/twofold_2f_sl_example.jpg)
+![example](https://raw.githubusercontent.com/dqonline/pic/main/u/TECH/twofold_2f_sl_example_blame_shift.jpg)
 
-stop twofold, stop 2f/sl: https://raw.githubusercontent.com/dqonline/pic/main/u/TECH/twofold_2f_sl_example_stop_sl.jpg
+[It takes one to know one - sl](https://ducquoc.wordpress.com/2021/12/20/e4t-it-takes-one-to-know-one-sl/)
 
