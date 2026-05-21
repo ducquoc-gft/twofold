@@ -93,3 +93,6 @@ Normal twofold resumes immediately after the critical part.
 ## CC usage example
 
 ![example](https://raw.githubusercontent.com/dqonline/pic/main/u/TECH/twofold_2f_sl_example.jpg)
+
+stop twofold, stop 2f/sl: https://raw.githubusercontent.com/dqonline/pic/main/u/TECH/twofold_2f_sl_example_stop_sl.jpg
+
