@@ -103,9 +103,3 @@ Normal twofold resumes immediately after the critical part.
 - Level persists across the session until changed.
 - `stop twofold` or `stop 2f` or `stop sl` or `normal mode` exits twofold entirely.
 
-## CC usage example
-
-![example](https://raw.githubusercontent.com/dqonline/pic/main/u/TECH/twofold_2f_sl_example_blame_shift.jpg)
-
-[It takes one to know one - sl](https://ducquoc.wordpress.com/2021/12/20/e4t-it-takes-one-to-know-one-sl/)
-
