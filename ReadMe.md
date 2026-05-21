@@ -11,8 +11,8 @@ Inspired by [linecount-maven-plugin](https://github.com/ducquoc-gft/linecount-ma
 Switches LLM's response style to brief, concise communication. Articles gone. Filler gone. Hedging gone. Technical substance stays intact. Code blocks and error messages always quoted exactly.
 <details>
 <summary>Usefulness: cuts collectively tokens out 50%-90%</summary>
- kind of x2 your session time until reaching compaction/limitation, not to mention concentration time.
-</details>
+ kind of x2 your session time until reaching compaction/limitation, not to mention concentration time.</details>
+
 --- 
 
 ## Skill Installation
