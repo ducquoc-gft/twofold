@@ -26,7 +26,7 @@ Then /reload-plugins , or restart the session.
 
 Alternatively: 
 
-- (Experimenting) NPX: ```npx skills add ducquoc-gft/twofold```
+- (ClaudeCode et al) NPX: ```npx skills add ducquoc-gft/twofold```
 
 ---
 

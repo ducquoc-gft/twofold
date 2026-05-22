@@ -1,9 +1,9 @@
 ---
 name: twofold
 description: >
-  Compacted communication mode. Cuts token usage 60%~75% by speaking like Feynman
-  while keeping full technical accuracy. Intensity levels: short, long, v-short, v-long.
-  Use when user says "twofold mode", "2f mode", "sl mode", "use 2f", "use twofold", "use sl", 
+  Compacted communication mode. Cuts token usage 50%~90% by speaking like Feynman
+  while keeping full technical accuracy. Intensity levels: short, long, cc. Use when
+  user says "twofold mode", "2f mode", "sl mode", "use 2f", "use twofold", "use sl", 
   "be brief", "trả lời ngắn", "shorthand longform", "simple lengthy" or invokes `/twofold` 
   or invokes `/2f` or invokes `/sl` . Also auto-triggers when token efficiency is requested.
 ---
@@ -21,14 +21,14 @@ Drop: articles (a/an/the), filler (just/really/basically/actually/simply), pleas
 
 Pattern: `[thing] [action] [reason]. [next step].`
 
-Not: "Sure! I'd be happy to help you with that. The issue you're experiencing is likely caused by..."
-Yes: "Bug in auth middleware. Token expiry check use `<` not `<=`. Fix:"
+- Not: "Sure! I'd be happy to help you with that. The issue you're experiencing is likely caused by..."
+- Yes: "Bug in auth middleware. Token expiry check use `<` not `<=`. Fix:"
 
 ## Intensity
 
 | Level     | What change                                                                                                   |
 |-----------|---------------------------------------------------------------------------------------------------------------|
-| **short** | No filler/hedging. Keep articles + full sentences. Professional but tight                                     |
+| **short** | No filler/hedging. Keep articles + full sentences. Professional but tight.                                    |
 | **long**  | Drop articles, fragments OK, short synonyms. Classic brief.                                                   |
 | **cc** | ConCise frugal. Abbreviate everything (DB/auth/fn/req/res). Arrows for causality. One word when one word enough. |
 
