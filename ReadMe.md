@@ -2,7 +2,7 @@
 
 Compaction Lines - [twofold](https://github.com/ducquoc-gft/twofold) (2F, sl).
 
-Inspired by [linecount-maven-plugin](https://github.com/ducquoc-gft/linecount-maven-plugin), [understand-anything](https://github.com/Lum1104/Understand-Anything).
+Inspired by [cc-sl](https://github.com/ducquoc-gft/cc-sl), [gemma4-fast-sonnet](https://ollama.com/ducquoc/gemma4-fast-sonnet).
 
 ---
 
@@ -81,6 +81,18 @@ Distinct from cheap: frugal is deliberate and principled; cheap implies low qual
 | short | "Frugal means using the minimum resources needed to achieve a goal, with no waste." | 15 | 17 | 79% |
 | long  | "Min resources, max output. No waste." | 6 | 9 | 89% |
 | cc    | "Min res → max output. No waste." | 6 | 8 | 90% |
+
+
+<details><summary>"What is Kakeibo?"</summary>
+
+| Level | Response |
+|------|----------|
+| short | "Kakeibo is a Japanese budgeting method focused on mindful spending. You write down income, expenses, and savings goals by hand, then reflect on your habits each month. The act of writing — not apps — is the point." |
+| long | "Japanese budgeting method. Write income/expenses by hand, reflect monthly. Idea: mindfulness through pen-and-paper. 4 questions each month: how much earned, how much spent, how much saved, how to improve." |
+| cc | "JP budgeting. Hand-write income/expenses. Monthly reflect. Mindfulness > apps. 4Q: earned? spent? saved? improve?" |
+
+([link](https://ducquoc.wordpress.com/2026/01/04/kakeibo-con-duong-tiet-kiem/))
+</details>
 
 ---
 
